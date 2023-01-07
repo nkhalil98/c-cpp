@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-// asks the users to inputs two strings of max length of 20 and any combination of the letters a, b, c, d. Returns whether the two strings are anagrams.
+// asks the user to input two strings of max length of 20 each and any combination of the letters a, b, c, d. Returns whether the two strings are anagrams.
 
 int main() {
  int counter1[] = {0,0,0,0};
@@ -13,7 +13,7 @@ int main() {
  printf("Enter the second string: \n");
  scanf("%s", s2);
 
- for (int i = 0; i< strlen(s1); i++) {
+ for (int i = 0; i < strlen(s1); i++) {
    if(s1[i] == 'a'){
     counter1[0]++;
   } else if (s1[i] == 'b') {
@@ -27,7 +27,7 @@ int main() {
   }
  }
 
- for (int j = 0; j< strlen(s2); j++) {
+ for (int j = 0; j < strlen(s2); j++) {
    if(s2[j] == 'a'){
     counter2[0]++;
   } else if (s2[j] == 'b') {
