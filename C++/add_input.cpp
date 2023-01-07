@@ -6,10 +6,10 @@ int main(void)
     int b;
     int c;
 
-    std::cout << "Enter a number\n";
+    std::cout << "Enter a number:\n";
     std::cin >> a;
 
-    std::cout << "Enter another number\n";
+    std::cout << "Enter another number:\n";
     std::cin >> b;
 
     c = a + b;
