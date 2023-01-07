@@ -12,13 +12,13 @@ int main()
     int b;
     int c;
 
-    cout << "Enter a number" << endl;
+    cout << "Enter a number:" << endl;
     cin >> a;
 
-    cout << "Enter another number" << endl;
+    cout << "Enter another number:" << endl;
     cin >> b;
 
-    cout << "Enter a third number" << endl;
+    cout << "Enter a third number:" << endl;
     cin >> c;
 
     cout << "The sum of the three numbers is: " << sum(a, b, c) << endl;

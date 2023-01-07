@@ -7,7 +7,7 @@ class Person{
 
     public: //access specifier
     
-        // begining of constructor
+        // beginning of constructor
         Person (string name) {
             setName(name);
         }
