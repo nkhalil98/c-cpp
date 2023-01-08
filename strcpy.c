@@ -11,7 +11,7 @@ void copy(char* dst, char* src){
 }
  
 int main(){
-  char srcString[] = "We promptly judged antique ivory buckles for the next prize!";
+ char srcString[] = "We promptly judged antique ivory buckles for the next prize!";
  char dstString[strlen(srcString)+1];
  copy(dstString, srcString);
  printf("%s", dstString);
