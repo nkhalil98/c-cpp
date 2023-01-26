@@ -3,7 +3,7 @@
 
 using namespace std;
 
-bool is_palindrome(string);
+bool is_palindrome(string); // function prototyping 
 
 int main()
 {
