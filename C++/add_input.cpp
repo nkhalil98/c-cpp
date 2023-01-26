@@ -7,7 +7,7 @@ int main(void)
     int c;
 
     std::cout << "Enter a number:\n";
-    std::cin >> a;
+    std::cin >> a; // cin is an input stream object and >> is a stream extraction operator
 
     std::cout << "Enter another number:\n";
     std::cin >> b;
